@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum Vitae</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 2rem; text-align: center; }
+        section { padding: 20px; max-width: 800px; margin: auto; background: #fff; margin-top: 10px; border-radius: 8px; }
+        h2 { color: #333; border-bottom: 2px solid #333; }
+        .contacto { font-style: italic; }
+        .boton-contacto { display: inline-block; background: #0078d4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="c:\Users\Usuario\Desktop\WhatsApp Image 2026-02-13 at 4.23.24 PM.jpeg" alt="Foto de Perfil" style="border-radius: 100%;">
+        <h1>Leowens Yonaiker Berroteran Rodríguez</h1>
+        <p>Perfil Profesional / Estudiante</p>
+    </header>
+
+    <main>
+        <section id="datos-personales">
+            <h2>Datos Personales</h2>
+            <p><strong>Fecha de nacimiento:</strong> 13 de Abril de 2001</p>
+            <p><strong>Género:</strong> Masculino</p>
+            <p class="contacto"><strong>Teléfono:</strong> +58 4120459744</p>
+            <p class="contacto"><strong>Email:</strong> <a href="mailto:tuemail@ejemplo.com">leowensberroteranr@gmail.com</a></p>
+
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <article>
+                <h3>Cargo en Empresa IOI Automation</h3>
+                <h4>Asistente Técnico</h4>
+                <p><em>Abril 2021-Mayo 2022</em></p>
+                <ul>
+                    <li>Responsabilidad 1: Descripción breve.</li>
+                    <li>Responsabilidad 2: Logro importante.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>Gestión de Proyectos</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios Realizados</h2>
+            <p><strong>T.S.U. Publicidad y Mercadeo</strong> - Instituto Universitario de Tecnología Antonio Ricaurte (IUTAR) (2019-2022)</p>
+        </section>
+
+    </main>
+
+    <section id="contacto">
+    <h2>Envíame un mensaje</h2>
+    <form action="#" method="POST" class="formulario">
+        <div class="grupo-input">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        </div>
+
+        <div class="grupo-input">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="grupo-input">
+            <label for="teléfono">Teléfono:</label>
+            <input type="text" id="número" name="nombre" placeholder="Tu número telefónico">
+        </div>
+
+        <div class="grupo-input">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+    </form>
+</section>
+
+ <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2026 - Creado por Leowens Berroteran</p>
+    </footer>
+
+</body>
+</html>
